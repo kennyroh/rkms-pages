@@ -29,14 +29,15 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
+        {/* <Image
           className={styles.logo}
-          src="/rkms-logo1.png"
+          src="/rkms-logo1.jpg"
           alt="RKMS Logo"
           width={456}
           height={452}
           priority
-        />
+        /> */}
+        <img src="/rkms-logo1.jpg" alt="RKMS Logo" />
       </div>
 
       {/* <div className={styles.grid}>
